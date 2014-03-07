@@ -7,16 +7,16 @@ Summary
 ---
 
 > There are a couple of IOS 7 App Icon Template for Photoshop available, but none
-> for Inkscape. We here at Kodira are fond of [Inkscape], a great vector graphics
-> editow to edit SVG files. So we created our own SVG App Icon Template for iPad
-> and iPhone 7 Apps. It includes the new golden ration grid. For easy export we
+> for Inkscape. We here at Kodira are fond of [Inkscape](http://www.inkscape.org) a great vector graphics
+> editor to edit SVG files. So we created our own SVG App Icon Template for iPad
+> and iPhone 7 Apps. It includes the new golden ratio grid. For easy export we
 > wrote a small script to quickly render your App icon in all [sizes you will need
 > for iOS development](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/IconMatrix.html). You can download the SVG template and the script here.
 > 
 > - _Kodira_
 
 I have modified this to add an additional layer for true masking. The included
-mask layer is stricty for design. You are intended to turn of the mask before
+mask layer is stricty for design. You are intended to turn off the mask before
 using the script which is great for iOS products, but not so great if you want
 to build precomposed icons. Instructions for using this below.
 
@@ -48,7 +48,7 @@ If you want a precomposed icon with the rounded corners:
 
 You may need to edit the path to you Inkscape binary for this to work.
 
-```bash
+```sh
 ./resize.sh AppIconTemplate.svg
 ```
 
