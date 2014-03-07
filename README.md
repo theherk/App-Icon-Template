@@ -1,5 +1,5 @@
 iOS 7 App Icon SVG Template for Inkscape
-###
+===
 
 Originally downloaded from [Kodira](http://kodira.de/2013/11/ios-7-app-icon-template-inkscape-svg-editor/).
 
