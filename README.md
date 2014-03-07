@@ -40,13 +40,13 @@ If you want a precomposed icon with the rounded corners:
 
 1. Follow same steps as above.
 2. Before saving show `FULL MASK to BG`.
-3. Select white mask and backgroung.
+3. Select white mask and background.
 4. Set Mask. (Should now look the same as when `MASK` is shown.)
 5. Save and run scipt.
 
 ### Script Instructions
 
-You may need to edit the path to you Inkscape binary for this to work.
+You may need to edit the path to your Inkscape binary for this to work.
 
 ```sh
 ./resize.sh AppIconTemplate.svg
