@@ -15,8 +15,6 @@ Summary
 > 
 > - _Kodira_
 
-The script provided from the original source has been modified to work with a Mac OS X Yosemite system, but should be generic enough to work on any system as long as the appropriate binary path to Inkscape has been provided (AlexSafatli). Forked from a modification of the original Kodira template.
-
 How to use
 ---
 

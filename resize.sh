@@ -1,6 +1,6 @@
 #!/bin/bash
 
-INK=/Applications/Inkscape.app/Contents/Resources/bin/inkscape
+INK=/usr/bin/inkscape
 
 if [[ -z "$1" ]] 
 then
@@ -8,8 +8,8 @@ then
 	exit;
 fi
 
-BASE=$PWD/`basename "$1" .svg`
-SVG=$PWD/"$1"
+BASE=`basename "$1" .svg`
+SVG="$1"
 
 # iPhone Spotlight iOS5,6 Settings iOS and iPad 5-8 29pt
 $INK -z -D -e "$BASE-29.png" -f 	$SVG -w 29 -h 29
@@ -47,5 +47,5 @@ $INK -z -D -e "$BASE-76@2x.png" -f 	$SVG -w 152 -h 152
 $INK -z -D -e "$BASE-512.png" -f 	$SVG -w 512 -h 512
 $INK -z -D -e "$BASE-1024.png" -f 	$SVG -w 1024 -h 1024
 
-cp "$BASE-512.png" $PWD/iTunesArtwork.png
-cp "$BASE-1024.png" $PWD/iTunesArtwork@2x.png
+cp "$BASE-512.png" iTunesArtwork.png
+cp "$BASE-1024.png" iTunesArtwork@2x.png
