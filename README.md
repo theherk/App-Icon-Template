@@ -1,7 +1,7 @@
-iOS 7 App Icon SVG Template for Inkscape
+iOS 8 App Icon SVG Template for Inkscape
 ===
 
-Originally downloaded from [Kodira](http://kodira.de/2013/11/ios-7-app-icon-template-inkscape-svg-editor/).
+Originally downloaded from [Kodira](http://kodira.de/2013/11/ios-7-app-icon-template-inkscape-svg-editor/) and modified for use with the new iOS 8 specifications and Mac OS X platform.
 
 Summary
 ---
@@ -14,11 +14,6 @@ Summary
 > for iOS development](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/IconMatrix.html). You can download the SVG template and the script here.
 > 
 > - _Kodira_
-
-I have modified this to add an additional layer for true masking. The included
-mask layer is stricty for design. You are intended to turn off the mask before
-using the script which is great for iOS products, but not so great if you want
-to build precomposed icons. Instructions for using this below.
 
 How to use
 ---
